@@ -1,22 +1,22 @@
-//modificado por gerar garces portes 
 #include<iostream>
+using namespace std;
 
-int  main()
+int main()
 {
-	int i= 0 ,l;
-	float g,p= 0 ;
-	cout<< " ingrese el limite l= " ; cin>>l;
-	hacer {
+	int i=0,l;
+	float x,s=0;
+	cout<<"ingrese el limite l="; cin>>l;
+	do{
+		
+	cout<<"ingrese el numero x="; cin>>x;
+	i=i+1;
+	s=s+x;
 
-	cout<< " ingrese el numero g= " ; cin>>g;
-	yo = yo + 1 ;
-	p=p+g;
 
 
-
-	} mientras (i<l);
-	cout<< " Se ingresaron " <<l<< " numeros " << " que sumaron " <<p<<endl;
-	devolver  0 ;
+	}while(i<l);
+	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+	return 0;
 
 
 
