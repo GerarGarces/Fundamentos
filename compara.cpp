@@ -1,21 +1,18 @@
-//modificado por gerar garces portes
 #include<iostream>
 using namespace std;
-int main();
+int main()
 {
-	float g,p;
-	cout<<"ingrese g p:"; cin>>g>>p;
-	if(g>p)
-	{
-	 cout<<g<<" es mayor g "<<p<<endl;
-	 }else
-	{
+	float a,b;
+	cout<<"ingrese a b:"; cin>>a>>b;
+	if(a>b)
+		{
+	  cout<<a<<" es mayor a "<<b<<endl;
+	  }else{
 
-	  cout<<b<<" es mayor g "<<g<<endl;
-
-
+	  cout<<b<<" es mayor a "<<a<<endl;
 	  }
-
 	return 0;
+
+
 }
 
